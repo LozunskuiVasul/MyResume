@@ -115,7 +115,7 @@ li {
     font-weight: 700;
     font-size: 16px;
 }
-.projects li:hover{
+.my-projects li:hover{
     font-size: 16px;
     color:brown;
 } 
