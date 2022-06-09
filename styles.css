@@ -12,33 +12,27 @@ a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 /* ul li{list-style: none;}*/
 img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 700;}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body{
     background-color: #F5F7FA;
-    font-family: montserat;
+    font-family: "Montserrat";
 }
 h1{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: 700;
+    margin: 15px 0px 15px 0px;
     font-size: 45px;
 }
 h2{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 700;
+    margin: 10px 0px 10px 0px;
     font-size: 22px;
 }
 h3{
-    font-weight: 700;
     margin-bottom: 10px;
     font-size: 16px;
 }
-h4{
-    font-weight: 700; 
-}
 h5{
+    font-weight: normal;
     font-size: 12px;
     color: #A8A8A8;
 }
@@ -47,8 +41,7 @@ span{
     font-weight: 700;
 }
 b{
-    color: black;
-    font-weight: 700;
+    color: black; 
 }
 p{
     font-size: 18px;
@@ -56,21 +49,21 @@ p{
     color: #595959;  
 }
 ul{
-    margin-top: 15px;
-    margin-bottom: 10px;   
+    margin: 15px 0px 10px 0px; 
 }
 li {
     margin-left: 15px;
     font-style: oblique;
     color: #595959;
 }
-.block {
-    margin: 30px;
-}
+
 .resume{
     display: flex;
-    margin: 40px;
+    margin: 30px;
     background-color: #fff; 
+}
+.block {
+    margin: 30px;
 }
 .left-column{
     display: block;
@@ -79,36 +72,40 @@ li {
     color: white;
 }
 .my-photo{
-width: 100%;
-margin-top: 40px;
-margin-bottom: 40px;
+    width: 100%;
+    margin: 40px 0px 40px 0px;
 }
 .contacts{
     font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.cont-phone, .cont-mail{
+    font-size: 14px;
+}
+.cont-mail:hover{
+    font-size: 16px;
+    color: #A8A8A8;
+}
+.cont-phone:hover{
+    font-size: 16px;
+    color: #A8A8A8;
 }
 .block.contacts, .tech-skills , .soft-skills{
-font-size: 22px;
+    font-size: 22px;
 }
 .white li{
-color: white;
+    color: white;
 }
-
 .right-column{
     display: block;
-    margin: 40px;
-    
-}
-.myProjects{
-    margin-left: 15px;
+    margin: 40px;  
 }
 .faculty{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0px 10px 0px;
     font-weight: 700;
     font-size: 16px;
 }
-.cont{
-    font-size: 14px;
-}
+.projects li:hover{
+    font-size: 16px;
+    color:brown;
+} 
