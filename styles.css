@@ -78,9 +78,15 @@ li {
 .contacts{
     font-weight: 700;
     margin: 10px 0px 10px 0px;
+    margin-left:30px;
+}
+.text-contacts{
+    margin-top: 10px;
+    font-size: 18px;
 }
 .cont-phone, .cont-mail{
     font-size: 14px;
+    color: red;
 }
 .cont-mail:hover{
     font-size: 16px;
