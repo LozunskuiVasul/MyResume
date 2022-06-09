@@ -80,7 +80,11 @@ li {
     margin: 10px 0px 30px 0px;
     font-size: 22px;
 }
-.text-contacts{
+.text-contacts1{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.text-contacts2{
     margin-top: 10px;
     font-size: 18px;
 }
