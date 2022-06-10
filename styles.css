@@ -101,6 +101,9 @@ li {
 .white li{
     color: white;
 }
+.white li::marker{
+     color: #FB6D3A;
+}
 .right-column{
     margin: 40px;  
 }
