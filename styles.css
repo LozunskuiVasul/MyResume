@@ -109,6 +109,9 @@ li {
     font-weight: 700;
     font-size: 16px;
 }
+.my-projects{
+    display: inline-block;
+}
 .my-projects li:hover{
     font-size: 16px;
     color:brown;
