@@ -76,7 +76,6 @@ li {
     margin: 40px 0px 40px 0px;
 }
 .contacts{
-    font-weight: 700;
     margin: 10px 0px 10px 0px;
     
 }
@@ -98,6 +97,7 @@ li {
 }
 .contacts, .tech-skills , .soft-skills{
     font-size: 22px;
+    font-weight: 700;
 }
 .white li{
     color: white;
